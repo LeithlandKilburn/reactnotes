@@ -8,7 +8,8 @@ body
   width: 100%;
   min-height:100%;
   background:
-    linear-gradient(-45deg, rgba(0,0,0,0.3), rgba(0, 40, 105, 0.8));
+    linear-gradient(-45deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
+    url('./Static/img/BUnited-137.jpg');
     background-attachment: fixed;
     background-size: cover;
 }
@@ -38,4 +39,29 @@ body
   font-size: 3.2em;
   color: #F4B350;
   font-family: 'Permanent Marker' , cursive;
+  text-align: center;
+  align-content: center;
+  padding: 20px, 0px, 20px, 0px;
+  margin-bottom: 6px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-shadow: 3px 3px 10px #000;
+  display: block;
+}
+
+.notesBody
+{
+  padding-top: 24px;
+  display: flex;
+  flex: 1 1 85%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  overflow: auto;
+}
+
+.notesFooter
+{
+  display: flex;
+  flex: 1 1 5%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
